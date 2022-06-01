@@ -5,7 +5,7 @@ var radius;
 
 function setup() {
   createCanvas(800,800);
-numCircles = 8;
+numCircles = int(8);
 radius = width/(numCircles*2);
 }
 
@@ -16,7 +16,7 @@ drawcircles(radius, numCircles);
 
 
 function drawcircles(var radius, var n) {
- n = 0;
+ n = int(0);
  x = radius;
  y = height/2;
   while (n < numCircles){
