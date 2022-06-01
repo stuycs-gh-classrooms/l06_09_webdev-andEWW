@@ -15,7 +15,7 @@ drawcircles(radius, numCircles);
 
 
 
-function drawcircles(int radius, int n) {
+function drawcircles(var radius, var n) {
  n = 0;
  x = radius;
  y = height/2;
