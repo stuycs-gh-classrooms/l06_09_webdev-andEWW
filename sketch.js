@@ -10,13 +10,7 @@ radius = 800/(numCircles*2);
 }
 
 function draw() {
-drawcircles(radius, numCircles);
-}
-
-
-
-function drawcircles(var radius, var n) {
- n = int(0);
+n = int(0);
  x = radius;
  y = height/2;
   while (n < numCircles){
@@ -26,3 +20,5 @@ function drawcircles(var radius, var n) {
    n += 1;
   }
 }
+
+
