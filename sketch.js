@@ -6,7 +6,7 @@ var radius;
 function setup() {
   createCanvas(800,800);
 numCircles = int(8);
-radius = width/(numCircles*2);
+radius = 800/(numCircles*2);
 }
 
 function draw() {
